@@ -30,15 +30,13 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 350px;
-    margin: 1.25rem 1rem;
-    box-sizing: border-box;
+    padding: 1.5rem 1rem;
 }
 
-.perfume-image {
-    background-image: url('../images/image-product-mobile.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 250px;
+img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
     border-radius: 0.5rem 0.5rem 0 0; 
 }
 
@@ -122,16 +120,16 @@ h1 {
         max-width: 575px;
     }
 
-    .perfume-image {
-        background-image: url('../images/image-product-desktop.jpg');
+    picture {
         width: 50%;
-        height: auto;
-        border-radius:0.5rem 0 0 0.5rem; 
+    }
+
+    img {
+        border-radius: 0.5rem 0 0 0.5rem; 
     }
 
     .content {
         width: 50%;
-        border-radius:0 0.5rem 0.5rem 0; 
+        border-radius: 0 0.5rem 0.5rem 0; 
     }
-
 }
