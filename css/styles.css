@@ -30,13 +30,13 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 350px;
-    padding: 1.5rem 1rem;
+    max-height: fit-content;
+    padding: 1.5remgit 1rem;
 }
 
 img {
     display: block;
     max-width: 100%;
-    height: 100%;
     border-radius: 0.5rem 0.5rem 0 0; 
 }
 
